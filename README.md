@@ -2,11 +2,11 @@
 
 ## Instructions:
 
-1. You have to create a **Dockerfile**, with:
+1. You have to complete the **Dockerfile**, with:
     * Install git
     * Install symfony
 
-2. You have to create a **docker-compose.yml** file, with the symfony service declared as follows:
+2. You have to complete the **docker-compose.yml** file, with the symfony service declared as follows:
     * Image stucom/php
     * Volumes defined
     * Ports defined
