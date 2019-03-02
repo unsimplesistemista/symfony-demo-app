@@ -7,11 +7,8 @@
     * Install symfony
 
 2. You have to create a **docker-compose.yml** file, with the symfony service declared as follows:
-    * Restart policy
     * Image stucom/php
-    * Build context
     * Volumes defined
-    * Working dir defined
     * Ports defined
 
 3. You have to compile the **stucom/php** image with the following command:
