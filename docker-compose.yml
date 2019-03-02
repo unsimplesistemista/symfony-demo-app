@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  symfony:
+    restart: always
+    image: ##PUT_YOUR_IMAGE_HERE##
+    build:
+      context: .
+    environment:
+      - PHP_OPCACHE_VALIDATE_TIMESTAMPS=1
+      - PHP_XDEBUG_ENABLE=1
+    volumes:
+      - ./##YOUR_APP_PATH##:/var/www
+    working_dir: /var/www
+    ports:
+      - ##FIRST_PORTS_HERE##
+      - ##ANOTHER_PORT_HERE##
